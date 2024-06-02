@@ -1,0 +1,71 @@
+/* .home {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+} */
+
+.home-page-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 20px;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.welcome-content {
+  max-width: 500px;
+  max-height: 500px;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+
+.website-tag-line {
+  font-size: 50px;
+  font-weight: bold;
+}
+.website-note {
+  width: 80%;
+  font-weight: 600;
+}
+
+.jobs-button {
+  background-color: #4f46e5;
+  border: none;
+  border-radius: 10px;
+  width: 120px;
+  height: 40px;
+  color: #f8fafc;
+  font-weight: 600;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .home-page-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+    background-size: cover;
+    background-position: center;
+    min-width: 1100px;
+    min-height: 2080px;
+    justify-content: flex-start;
+  }
+  .welcome-content {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 577px) {
+  .home-page-container {
+    min-width: 1100px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home-page-container {
+    min-width: 1100px;
+  }
+}

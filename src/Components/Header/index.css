@@ -1,0 +1,149 @@
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #202020;
+  width: 100vw;
+}
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 15px 0px 20px 0px;
+}
+
+.nav-bar-mobile-logo-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  .nav-header {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav-bar-mobile-logo-container {
+    display: none;
+  }
+}
+
+.navbar-larger-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  /* max-width: 1110px; */
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-larger-container {
+    display: none;
+  }
+}
+
+.website-nav-logo {
+  width: 90px;
+  margin-top: 12px;
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .website-nav-logo {
+    width: 125px;
+  }
+}
+
+.menu-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: flex-end;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .menu-list {
+    display: none;
+  }
+  .nav-content {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+.menu-item {
+  padding: 10px;
+  margin: 10px;
+}
+
+.link-tags {
+  text-decoration: none;
+  color: #f8fafc;
+  font-weight: 600;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.logout-desktop-btn {
+  padding: 10px;
+  border: none;
+  background-color: #4f46e5;
+  color: #f8fafc;
+  font-weight: 600;
+  border-radius: 10px;
+  width: 80px;
+  margin-right: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-header {
+    min-width: 1100px;
+  }
+  .logout-desktop-btn {
+    display: none;
+  }
+}
+.nav-bar-mobile-icons-container {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.mobile-logout-btn {
+  border: none;
+  padding: 0px;
+  margin-right: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  font-size: 24px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-jobs-link-icon,
+.mobile-home-link-icon {
+  font-size: 24px;
+  color: #ffffff;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-header {
+    min-width: 1100px;
+  }
+  .mobile-logout-btn {
+    display: none;
+  }
+}

@@ -1,0 +1,23 @@
+.employment-type-heading,
+.salary-range-heading {
+  font-size: 20px;
+}
+
+.employment-type-list,
+.salary-range-list {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.type-item,
+.range-item {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.checkbox-tag,
+.radio-tag {
+  width: 15px;
+  height: 15px;
+  margin-right: 15px;
+}

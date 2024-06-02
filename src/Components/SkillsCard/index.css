@@ -1,0 +1,18 @@
+.skills-card-container {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 300px;
+  height: 120px;
+  margin-left: 0px;
+}
+.skill-image {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+.skill-name {
+  color: white;
+  font-size: 20px;
+}
